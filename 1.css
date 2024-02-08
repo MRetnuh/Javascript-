@@ -1,0 +1,18 @@
+body {
+flex-direction: column;
+  display: flex;
+  text-align: center;
+  background: blue;
+.correct {
+
+  border: 2px solid black;
+background: green;
+}
+.incorrect {
+
+border:2px solid black;
+background:red;
+}
+p{
+color: red;
+}
