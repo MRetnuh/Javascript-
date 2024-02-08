@@ -1,0 +1,18 @@
+nav {
+  display: none;
+  background-color: grey;
+  max-width: 46vh;
+  color: white;
+}
+li{
+  font-size: 32px;
+  list-style: none;
+}
+
+button {
+  font-size: 32px;
+  border: none;
+  height: 50px;
+  width: 120px;
+  cursor: pointer;
+}
