@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Conversor de Números</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Conversor de Números</h1>
+    <div>
+      <label for="binary-input">Binario:</label>
+      <input type="text" id="binary-input" oninput="convert('binary')">
+    </div>
+    <div>
+      <label for="decimal-input">Decimal:</label>
+      <input type="text" id="decimal-input" oninput="convert('decimal')">
+    </div>
+    <div>
+      <label for="octal-input">Octal:</label>
+      <input type="text" id="octal-input" oninput="convert('octal')">
+    </div>
+    <div>
+      <label for="hexadecimal-input">Hexadecimal:</label>
+      <input type="text" id="hexadecimal-input" oninput="convert('hexadecimal')">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
