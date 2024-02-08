@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    function EasterEgg(event) {
+      var clickedElement = event.target;
+let result = true;
+      var canvas = document.getElementById('canvas');
+
+      if (clickedElement === canvas) {
+        window.location.href = 'https://developer.mozilla.org';
+      }
+    }
+  </script>
+</head>
+<body onclick="EasterEgg(event)">
+  <div id="canvas" style="width: 100%; height: 400px; background-color: lightgray;"></div>
+  <p>Haz clic en cualquier lugar de la pagina.</p>
+</body>
+</html>
